@@ -24,7 +24,7 @@ function App() {
             <li>
             <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="cursor-pointer text-2xl text-black" />
             </li>
-            <li><a className="bg-gradient-to-r from-cyan-600 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="#">Resume</a></li>
+            <li className="bg-gradient-to-r from-cyan-600 to-teal-500 text-white px-4 py-2 rounded-md ml-8">Resume</li>
             </ul>
           </nav>
           <div className="text-center p-10">
@@ -37,7 +37,7 @@ function App() {
             <a href="https://github.com/absmohamed"><AiFillGithub href="https://www.github.com/absmohamed"/></a>
           </div>
           <div className='relative mx-auto bg-gradient-to-b from-teal-600 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
-            <img class="rounded-lg overflow-hidden" src={absPic} layout="fill" />
+            <img alt="pic of me" class="rounded-lg overflow-hidden" src={absPic} layout="fill" />
           </div>
         </section>
 
@@ -51,20 +51,20 @@ function App() {
           </div>
           <div className="lg:flex gap-10">
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-slate-200 flex-1'>
-              <img className='relative mx-auto' src={coderAcademy} width={175} height={175} />
+              <img alt="Coder Academy" className='relative mx-auto' src={coderAcademy} width={175} height={175} />
               <h3 className='text-slate-700 font-medium text-lg pt-8 pb-2 '>Coding Bootcamp</h3>
               <p className='text-gray-800 py-1'>Same coding bootcamp and the same content as the popular accelerated pathway, but at a pace that worked for me. This allowed me to fit study around work commitments and family.</p>
               <h4 className='text-gray-800 py-1'>Bootcamp Duration: 10 months</h4>
               <p className='text-gray-800 py-1'>Qualification: Higher Education Diploma of Information Technology</p>
             </div>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-slate-200 flex-1'>
-              <img className='relative mx-auto' src={travelByBit} width={175} height={175} />
+              <img alt="TravelbyBit" className='relative mx-auto' src={travelByBit} width={175} height={175} />
               <h3 className='text-slate-700 font-medium text-lg pt-8 pb-2'>TravelbyBit Internship</h3>
               <p className='text-gray-800 py-1'>I did work on the backend and frontend of the TravelbyBit website by adding Frequent Flyer fields to the passenger details form and adding backend validations for those fields. I also added backend validations for the date input to make sure the return date is not before the departure date and that the departure date is not null. Also worked with react datepicker.</p>
               <h4 className='text-gray-800 py-1'>Internship Duration: 1 month</h4>
             </div>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-slate-200 flex-1'>
-              <img className='relative mx-auto rounded-t-lg' src={qut} width={155} height={155} />
+              <img alt="QUT" className='relative mx-auto rounded-t-lg' src={qut} width={155} height={155} />
               <h3 className='text-slate-700 font-medium text-lg pt-8 pb-2 '>Bachelor of Information Technology: Data Science & Computer Science Major</h3>
               <p className='text-gray-800 py-1'>In my majors, I learned software development and networking systems. I gained priceless knowledge in specific areas such as information security, networks and communications, intelligent systems, data-centric computing, and user experiences. </p>
               <h4 className='text-gray-800 py-1'>Degree Duration: 2 years and 6 months</h4>
